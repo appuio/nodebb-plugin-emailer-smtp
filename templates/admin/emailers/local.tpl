@@ -28,18 +28,6 @@
 			</div>
 			<div class="col-sm-12">
 				<div class="form-group">
-					<label for="emailer:local:username">User</label>
-					<input type="text" class="form-control" id="emailer:local:username" name="emailer:local:username" />
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<div class="form-group">
-					<label for="emailer:local:password">Password</label>
-					<input type="password" class="form-control" id="emailer:local:password" name="emailer:local:password" />
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<div class="form-group">
 					<label>
 						<input type="checkbox" id="emailer:local:secure" name="emailer:local:secure"/>
 						 Enable secure connection

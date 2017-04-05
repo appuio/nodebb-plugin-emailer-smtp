@@ -34,10 +34,6 @@ Emailer.send = function(data, callback) {
         secure: settings['emailer:local:secure'] !== 'off',
         ignoreTLS: settings['emailer:local:ignoretls'] !== 'off',
         requireTLS: settings['emailer:local:requiretls'] !== 'off',
-        auth: {
-            user: settings['emailer:local:username'],
-            pass: settings['emailer:local:password'],
-        },
     };
     var mailOptions = {
         from: data.from,
