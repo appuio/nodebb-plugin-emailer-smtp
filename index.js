@@ -32,6 +32,8 @@ Emailer.send = function(data, callback) {
         host: settings['emailer:local:host'],
         port: settings['emailer:local:port'],
         secure: settings['emailer:local:secure'],
+        ignoreTLS: settings['emailer:local:ignoretls'],
+        requireTLS: settings['emailer:local:requiretls'],
         auth: {
             user: settings['emailer:local:username'],
             pass: settings['emailer:local:password'],
@@ -61,7 +63,7 @@ Emailer.admin = {
         custom_header.plugins.push({
             "route": '/emailers/local',
             "icon": 'fa-envelope-o',
-            "name": 'Emailer SMTP'
+            "name": 'Emailer SMTP APPUiO Version'
         });
 
         callback(null, custom_header);

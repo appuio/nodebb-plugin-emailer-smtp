@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-plugin-emailer-smtp",
-    "url": "https://github.com/Danor/nodebb-plugin-emailer-smtp",
-    "name": "Emailer SMTP",
+    "id": "nodebb-plugin-emailer-smtp-appuio",
+    "url": "https://github.com/appuio/nodebb-plugin-emailer-smtp",
+    "name": "Emailer SMTP APPUiO Version",
     "description": "Plugin for NodeBB allowing you to send e-mail via SMTP.",
     "library": "./index.js",
     "templates": "./templates",

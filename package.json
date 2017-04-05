@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-emailer-smtp",
+  "name": "nodebb-plugin-emailer-smtp-appuio",
   "version": "1.0.0",
   "description": "Plugin for NodeBB allowing you to send e-mail via SMTP.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Danor/nodebb-plugin-emailer-smtp.git"
+    "url": "git+https://github.com/appuio/nodebb-plugin-emailer-smtp.git"
   },
   "keywords": [
     "nodebb",
@@ -17,14 +17,14 @@
     "mail",
     "smtp"
   ],
-  "author": "Danor danor@fastmail.com",
+  "author": ["Danor <danor@fastmail.com>", "Tobias Brunner <tobias.brunner@vshn.ch>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Danor/nodebb-plugin-emailer-smtp/issues"
+    "url": "https://github.com/appuio/nodebb-plugin-emailer-smtp/issues"
   },
-  "homepage": "https://github.com/Danor/nodebb-plugin-emailer-smtp#readme",
+  "homepage": "https://github.com/appuio/nodebb-plugin-emailer-smtp#readme",
   "dependencies": {
-    "nodemailer": "~2.3.0",
+    "nodemailer": "~3.1.0",
     "path": "~0.12.7"
   },
   "nbbpm": {

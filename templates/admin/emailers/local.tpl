@@ -3,7 +3,8 @@
 <div class="row">
 	<div class="col-lg-12">
 		<blockquote>
-			Plugin for NodeBB allowing you to send e-mail via SMTP.
+			Plugin for NodeBB allowing you to send e-mail via SMTP - The APPUiO Version.
+      Uses Nodemailer package.
 		</blockquote>
 	</div>
 </div>
@@ -42,6 +43,22 @@
 					<label>
 						<input type="checkbox" id="emailer:local:secure" name="emailer:local:secure"/>
 						 Enable secure connection
+					</label>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="form-group">
+					<label>
+						<input type="checkbox" id="emailer:local:ignoretls" name="emailer:local:ignoretls"/>
+						 Ignore TLS
+					</label>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<div class="form-group">
+					<label>
+						<input type="checkbox" id="emailer:local:requiretls" name="emailer:local:requiretls"/>
+						 Require TLS
 					</label>
 				</div>
 			</div>
